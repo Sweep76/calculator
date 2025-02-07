@@ -1,14 +1,15 @@
-import {StyleSheet} from 'react-native';
-import { myColors } from './Colors';
+import { StyleSheet } from "react-native";
+import { myColors } from "./Colors"; 
 
 export const Styles = StyleSheet.create({
+    // Button
     btnBlue: {
         width: 72,
         height: 72,
         borderRadius: 24,
         backgroundColor: myColors.blue,
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: "center",
+        alignItems: "center",
         margin: 8,
     },
     btnDark: {
@@ -16,17 +17,17 @@ export const Styles = StyleSheet.create({
         height: 72,
         borderRadius: 24,
         backgroundColor: myColors.btnDark,
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: "center",
+        alignItems: "center",
         margin: 8,
     },
     btnLight: {
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColors.light,
-        justifyContent: 'center',
-        alignItems: 'center',
+        backgroundColor: myColors.white,
+        justifyContent: "center",
+        alignItems: "center",
         margin: 8,
     },
     btnGray: {
@@ -34,8 +35,8 @@ export const Styles = StyleSheet.create({
         height: 72,
         borderRadius: 24,
         backgroundColor: myColors.btnGray,
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: "center",
+        alignItems: "center",
         margin: 8,
     },
     smallTextLight: {
@@ -46,10 +47,10 @@ export const Styles = StyleSheet.create({
         fontSize: 32,
         color: myColors.black,
     },
-    // keyboard
+    // Keyboard
     row: {
         maxWidth: '100%',
-        flexDirection: 'row',
+        flexDirection: "row",
     },
     viewBottom: {
         position: 'absolute',
@@ -59,12 +60,12 @@ export const Styles = StyleSheet.create({
         fontSize: 96,
         color: myColors.gray,
         fontWeight: '200',
-        alignSelf: 'flex-end',
+        alignSelf: "flex-end",
     },
     screenSecondNumber: {
         fontSize: 40,
         color: myColors.gray,
         fontWeight: '200',
-        alignSelf: 'flex-end',
+        alignSelf: "flex-end",
     },
-});
+})
