@@ -109,9 +109,9 @@ export default function MyKeyboard() {
         {firstNumberDisplay()}
       </View>
       <View style={Styles.row}>
-        <Button title="C" isGray onPress={clear} />
-        <Button title="+/-" isGray onPress={() => handleOperationPress("+/-")} />
-        <Button title="%" isGray onPress={() => handleOperationPress("%")} />
+        <Button title="Clear Values" isGray onPress={clear} />
+        {/* <Button title="+/-" isGray onPress={() => handleOperationPress("+/-")} />
+        <Button title="%" isGray onPress={() => handleOperationPress("%")} /> */}
         <Button title="÷" isBlue onPress={() => handleOperationPress("/")} />
       </View>
       <View style={Styles.row}>
