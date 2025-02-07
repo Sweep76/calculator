@@ -31,7 +31,7 @@ export const Styles = StyleSheet.create({
         margin: 8,
     },
     btnGray: {
-        width: 72,
+        width: 248, // original width: 72
         height: 72,
         borderRadius: 24,
         backgroundColor: myColors.btnGray,
