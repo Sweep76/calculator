@@ -8,4 +8,6 @@ export const myColors = {
     black: '#000000',
     white: '#FFFFFF', 
     result: '#46D5B2',
+    orange: '#FFA500',
+    green: '#449e48',
 }

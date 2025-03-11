@@ -3,11 +3,20 @@ import { myColors } from "./Colors";
 
 export const Styles = StyleSheet.create({
     // Button
-    btnBlue: {
+    btnOrange: {
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColors.blue,
+        backgroundColor: myColors.orange,
+        justifyContent: "center",
+        alignItems: "center",
+        margin: 8,
+    },
+    btnGreen: {
+        width: 72,
+        height: 72,
+        borderRadius: 24,
+        backgroundColor: myColors.green,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
@@ -31,7 +40,7 @@ export const Styles = StyleSheet.create({
         margin: 8,
     },
     btnGray: {
-        width: 248, // original width: 72
+        width: 160, // original width: 72
         height: 72,
         borderRadius: 24,
         backgroundColor: myColors.btnGray,

@@ -7,15 +7,15 @@ import Button from './src/components/Button';
 import MyKeyboard from './src/components/MyKeyboard';
 
 export default function App() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
   return (
     <ThemeContext.Provider value={theme}>
       <SafeAreaView style={theme === 'light' ? styles.container : [styles.container, {backgroundColor: '#000'}]}>
         <StatusBar style="auto" />
-        <Switch 
+        {/* <Switch 
           value={theme === 'light'}
-          onValueChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-        />
+          onValueChange={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+        /> */}
       <MyKeyboard />
       </SafeAreaView>
     </ThemeContext.Provider>
